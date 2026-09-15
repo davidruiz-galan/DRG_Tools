@@ -1,0 +1,23 @@
+{
+  "name": "DRG Tools",
+  "version": "0.1.0",
+  "author": "David Ruiz-Galán",
+  "license": "MIT",
+  "target": [
+    "Nuke 17.x",
+    "NukeX 17.x"
+  ],
+  "tools": [
+    {
+      "name": "NodeInfo",
+      "type": "python-ui",
+      "version": "1.3.0"
+    },
+    {
+      "name": "Directional Dilate",
+      "class": "DRG_DirectionalDilate",
+      "type": "gizmo",
+      "version": "1.0.0"
+    }
+  ]
+}
