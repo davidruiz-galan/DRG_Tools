@@ -26,22 +26,6 @@ Restart Nuke. Do not replace your existing init.py or menu.py. Only register the
 
 Initial target: Nuke / NukeX 17.x on Windows. Version 0.1.0 is an initial preview. Packaging and Python syntax are checked; interactive behavior and rendering still require validation inside Nuke. PySide2 fallback is present but older Nuke versions are not certified.
 
-## Development
-
-Edit only `DRG_Tools/` for runtime code and assets. See [adding tools](dev/ADD_NEW_TOOL.md), [release checklist](dev/RELEASE_CHECKLIST.md) and [publishing](dev/PUBLISHING.md).
-
-Build a clean distribution with Python 3.11 or newer:
-
-```text
-python scripts/build_release.py
-```
-
-This creates `dist/DRG_Tools_v0.1.0.zip` and its SHA-256 checksum. Attach these to a GitHub Release and use the same ZIP on Nukepedia. Do not commit dist/ or local backups.
-
-## Support
-
-Report issues in this repository with your Nuke version, operating system, reproduction steps and any traceback. Remove confidential project information before attaching examples.
-
 ## License
 
 MIT. See [LICENSE.txt](LICENSE.txt) and [NOTICE.txt](NOTICE.txt).
